@@ -1,10 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { writeFile } from "fs/promises";
-import path from "path";
 import { createArtwork } from "@/lib/data";
+import { uploadImage } from "@/lib/blob";
 
 const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp"];
-const MAX_SIZE = 10 * 1024 * 1024; // 10MB
+const MAX_SIZE = 10 * 1024 * 1024;
 
 export async function POST(request: NextRequest) {
   try {
@@ -30,13 +29,12 @@ export async function POST(request: NextRequest) {
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    const uploadPath = path.join(process.cwd(), "public", "uploads", filename);
-    await writeFile(uploadPath, buffer);
+    const imageUrl = await uploadImage(filename, buffer);
 
     const artwork = await createArtwork({
       title,
       description,
-      imageUrl: `/uploads/${filename}`,
+      imageUrl,
     });
 
     return NextResponse.json(artwork, { status: 201 });

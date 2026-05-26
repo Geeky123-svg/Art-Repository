@@ -35,8 +35,19 @@
 - [x] 5.5 Add keyboard (Escape) and backdrop-click to close modal
 - [x] 5.6 Use Next.js `next/image` for optimized, lazy-loaded thumbnails
 
-## 6. Polish & Verification
+## 6. Vercel Deployment Refactor
 
-- [x] 6.1 Verify `npm run build` succeeds without errors
-- [ ] 6.2 Test full flow: upload artwork via admin → view in public feed → open modal → edit/delete in admin
-- [ ] 6.3 Verify responsive layout at mobile, tablet, and desktop breakpoints
+- [x] 6.1 Install `@vercel/blob` and `@vercel/kv` packages
+- [x] 6.2 Create `src/lib/kv.ts` — KV storage layer with local JSON fallback
+- [x] 6.3 Create `src/lib/blob.ts` — Blob storage layer with local filesystem fallback
+- [x] 6.4 Refactor `src/lib/data.ts` — delegate to KV + Blob abstractions
+- [x] 6.5 Refactor `src/app/api/upload/route.ts` — use Blob for image upload
+- [x] 6.6 Refactor `src/app/admin/actions.ts` — delete from Blob on artwork deletion
+- [x] 6.7 Update `next.config.ts` — add Vercel Blob remote pattern
+- [x] 6.8 Update `.env.local` — add Vercel env variable placeholders
+- [x] 6.9 Verify `npm run build` succeeds without errors
+
+## 7. Polish & Verification
+
+- [ ] 7.1 Test full flow: upload artwork via admin → view in public feed → open modal → edit/delete in admin
+- [ ] 7.2 Verify responsive layout at mobile, tablet, and desktop breakpoints
