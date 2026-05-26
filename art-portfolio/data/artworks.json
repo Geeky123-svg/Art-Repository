@@ -1,0 +1,90 @@
+[
+  {
+    "title": "\"The Sunflower\"",
+    "description": "The young, growing sunflower is known for facing the sun from the morning to the night\r\n",
+    "imageUrl": "/uploads/54945f23-3cd7-47fb-9f8d-54155488b401.jpeg",
+    "id": "6fe618f5-892a-4438-ae19-ce9549fdecfd",
+    "createdAt": "2026-05-26T08:16:06.643Z",
+    "updatedAt": "2026-05-26T08:16:06.643Z"
+  },
+  {
+    "title": "\"Innocent as Doves\"",
+    "description": "Doves represent peace and innocence ",
+    "imageUrl": "/uploads/4cdcf6b7-a6a1-481f-b84b-1fae78c60246.jpeg",
+    "id": "d815b9ca-e5ce-4cc7-9ccf-bc3c1f37c79f",
+    "createdAt": "2026-05-26T08:16:57.778Z",
+    "updatedAt": "2026-05-26T08:16:57.778Z"
+  },
+  {
+    "title": "\"Passion behind the Craft\"",
+    "description": "Drawn in inspiration to work hard",
+    "imageUrl": "/uploads/0c6da608-2ee6-47cf-8e72-a427c4478afe.jpeg",
+    "id": "71542184-c9c7-4d85-a060-702f5d5723d5",
+    "createdAt": "2026-05-26T08:17:52.965Z",
+    "updatedAt": "2026-05-26T08:17:52.965Z"
+  },
+  {
+    "title": "\"Campfire under a Night Sky\"",
+    "description": "Relaxing peaceful climate listening to crackling of wood",
+    "imageUrl": "/uploads/be011b13-14b5-4a43-847a-488c3621e1dc.jpg",
+    "id": "12a12bf5-13a4-4915-ae8f-4fd3273cbb73",
+    "createdAt": "2026-05-26T08:38:04.144Z",
+    "updatedAt": "2026-05-26T08:38:04.144Z"
+  },
+  {
+    "title": "\"Mythical Creatures\"",
+    "description": "One of my first pieces of artwork that I drew seriously was related to monsters and mythical creatures",
+    "imageUrl": "/uploads/7820cb6f-bf29-41ae-861c-64b3aa3f8398.jpg",
+    "id": "8717ca8a-6c76-46b1-89e4-0d549a7ca701",
+    "createdAt": "2026-05-26T08:43:09.173Z",
+    "updatedAt": "2026-05-26T08:43:09.173Z"
+  },
+  {
+    "title": "\"The Dragon\"",
+    "description": "One of my first pieces of artwork that I drew seriously was related to monsters and mythical creatures",
+    "imageUrl": "/uploads/83d644b1-6e17-4e3d-b857-ff6ba37f37ab.jpg",
+    "id": "2b919cc0-a340-4332-9519-059559ceedae",
+    "createdAt": "2026-05-26T08:45:13.924Z",
+    "updatedAt": "2026-05-26T08:45:13.924Z"
+  },
+  {
+    "title": "\"A Second Home\"",
+    "description": "Hostel Life: A world of new experiences and lessons",
+    "imageUrl": "/uploads/b48ecfd9-f812-4449-9e06-3a409733045d.jpg",
+    "id": "46701b99-7a33-4851-97de-3d7416bd590b",
+    "createdAt": "2026-05-26T09:16:08.605Z",
+    "updatedAt": "2026-05-26T09:16:08.605Z"
+  },
+  {
+    "title": "\"Anger\"",
+    "description": "A picture to inspire people to not let anger dictate their lives",
+    "imageUrl": "/uploads/aef693d0-bc9d-4291-8d8a-51b2c6c14cb4.jpg",
+    "id": "4a8231fc-3ab5-4515-a936-9d347d9e75e3",
+    "createdAt": "2026-05-26T09:18:04.489Z",
+    "updatedAt": "2026-05-26T09:18:04.489Z"
+  },
+  {
+    "title": "\"New Beginnings\"",
+    "description": "A promise of new beginnings",
+    "imageUrl": "/uploads/37b0452d-5917-45b3-95a1-d7ea8fc2ffed.jpg",
+    "id": "d5fa45de-3316-4466-a80b-cd644be3f9b3",
+    "createdAt": "2026-05-26T09:19:49.066Z",
+    "updatedAt": "2026-05-26T09:19:49.066Z"
+  },
+  {
+    "title": "\"Self-reflection\"",
+    "description": "Looking inward",
+    "imageUrl": "/uploads/0afd085d-e7e8-4727-8e85-07e384bfb528.jpg",
+    "id": "056641ff-5371-4bf7-8bc8-5e97a50c706e",
+    "createdAt": "2026-05-26T09:21:17.696Z",
+    "updatedAt": "2026-05-26T09:21:17.696Z"
+  },
+  {
+    "title": "\"Guard your heart\"",
+    "description": "Protect your spirits",
+    "imageUrl": "/uploads/a3271b69-8310-4a51-8823-dc46d6ee85dd.jpg",
+    "id": "fdfed04f-8eaf-48a0-a87d-677e9b6ae8e6",
+    "createdAt": "2026-05-26T09:24:40.177Z",
+    "updatedAt": "2026-05-26T09:24:40.177Z"
+  }
+]
